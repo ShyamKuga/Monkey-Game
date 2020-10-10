@@ -64,7 +64,7 @@ function banana(){
     bananaGroup.add(banana)
     banana.scale = 0.05
    banana.y = random(180,200)}} 
-
+ console.log("abc")
 
 function spawnObstacles(){
 if (World.frameCount % 160=== 0){
